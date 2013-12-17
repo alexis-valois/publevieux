@@ -1,0 +1,128 @@
+body {
+	
+}
+
+.centerBox {
+    margin: 0 auto;
+    width: 800px;
+    //border-style:solid;
+    //border-width:2px;
+}
+
+#radio {
+	margin: 0 auto;
+    width: 480px;
+}
+#menuItem p{
+	width:130px;
+	height: 56px;
+	background-color: grey;
+	margin:0px;
+	padding:0px;
+	display:float;
+	text-align: center;
+	font: bold 12px/30px Georgia, serif;
+}
+
+#menuItem span{
+	position: relative;
+    top: 14px;
+}
+
+#menuItem a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#menuItem a:hover, a:active {
+	color: green;
+}
+
+#artistResults {
+	display:none;
+	width: 350px;
+}
+
+#songResults {
+	display:none;
+	width: 350px;
+	
+}
+
+select option:nth-child(even) {
+            color:black;
+            background:#c9eefe;
+        }
+select option:nth-child(odd) {
+            color:black;
+            background:#a2c8eb;
+}
+
+#songUpdate{
+	display:none;
+	margin: 0 auto;
+	width: 350px;
+	text-align:center;
+}
+
+#artistUpdate{
+	display:none;
+	margin: 0 auto;
+	width: 350px;
+	text-align:center;
+}
+
+
+.resultBox {
+	width:350px;
+	margin-bottom:15px;
+		
+}
+
+#modifArtist {
+	display:none;
+}
+
+#modifChanson {
+	display:none;
+}
+
+.txtField {
+	width: 430px;
+	margin-top:5px;
+}
+
+.txtFieldSel {
+	width: 436px;
+	margin-top:5px;
+}
+
+#fragment-1 label {
+    display: block;
+    width: 270px;
+    float: left;
+    text-align: right;
+    margin-top:5px
+}
+
+#fragment-1 fieldset {
+   margin-top: 20px;
+}
+
+.btnUpdate {
+	margin-right: 4px;
+    margin-top: 9px;
+    text-align: right;
+}
+
+.btnUpdate input{
+	font-size: 12px !important;
+    width: 145px;
+	
+}
+
+#langSel {
+	margin-top: -7px;
+    text-align: center;
+    width: 425px;
+}
